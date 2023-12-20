@@ -1,0 +1,72 @@
+<!-- Todo List
+Please download the template from here:- TodoDOM.zip
+Your Template will have 3 files
+HTML (index.html - Don't change any ID's in this file)
+CSS (index.css)
+JS (index.js)
+Problem Statement:-
+Your app consists a form which contain 1 input tag and 1 select tag
+Note : HTML tags are already in template.
+Form will take
+Task Name
+Priority (select tag)
+On form submit, display this data in form of table (thead is already in place just append to tbody)
+Input tags already in template, just finish script part.
+Each row should have 3 columns (td)
+Task Name
+Priority
+If priority is high, it should have red background, else green background.
+In each row, there should be a Favourite column and on clicking that do nothing, we will implement this tomorrow.
+Make sure you follow all rules of forms.
+What to submit: Deployed link (Netlify - Create an account and submit)
+
+ -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U2C3</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Dont make any changes here -->
+    <h1>TODO App</h1>
+    
+
+    <div>
+      <!-- ***** We are using form here  ****  -->
+      <form>
+        <label for="">Task Name</label><br />
+        <input id="task" type="text" placeholder="Enter Task Name" /><br />
+        <label for="">Priority </label><br />
+        <select id="priority">
+          <option value="">Select Priority</option>
+          <option value="High">High</option>
+          <option value="Low">Low</option>
+        ><br />
+        <input type="submit" />
+      </form>
+      <table>
+        <!-- Dont change order of columns -->
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Priority</th>
+            <th>Favourite</th>
+          </tr>
+        </thead>
+        <tbody>
+        <!-- Append your output to tbody -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
+<script src="index.js"></script>
